@@ -34,3 +34,13 @@ curl http://localhost
 docker compose down
 
 docker push portgasdfran/galeria:latest 
+
+git checkout -b developer
+
+git push --set-upstream origin developer
+
+git add .
+
+git commit -m "Actualización del título"
+
+git push    
